@@ -81,7 +81,7 @@ nav div a:hover {
     font-size: 2em;
     font-family: 'Courier New', 'monospace';
     text-align: center;
-    background-color: #848482;
+    background-color: #B6B6B4;
     border-top:20px solid deeppink;
 }
 
@@ -91,7 +91,7 @@ nav div a:hover {
     font-size: 2em;
     font-family: 'Courier New', 'monospace';
     text-align: center;
-    background-color: #848482;
+    background-color: #B6B6B4;
     border-top:10px solid deeppink;
 }
 
@@ -116,7 +116,7 @@ nav div a:hover {
     font-size: 2em;
     font-family: 'Courier New', 'monospace';
     text-align: center;
-    background-color: #848482;
+    background-color: #B6B6B4;
     border-top:10px solid deeppink;
     border-bottom: 10px solid deeppink;
 }
@@ -124,6 +124,16 @@ nav div a:hover {
 #end, #end1, #end2, #end3
 {
     border-bottom:10px solid deeppink;
+}
+
+#resu
+{
+    color: black;
+}
+
+#resu:hover
+{
+  background: lightpink;
 }
 
 li
