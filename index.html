@@ -14,9 +14,13 @@
         
         <link rel="stylesheet" type="text/css" href="main.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="smoothscroll.js"></script> 
+        <script src="modernizr-custom.js"></script>
+        <script src="script.js"></script>
     </head>
-    <body onresize="setup()">
+    
+    <body>
         <h1><span class="heading">Sagar Tewari</span></h1>
         <h1 class="heading"><br>Master of Science in<br>
             Computer Science from<br>
@@ -26,13 +30,13 @@
         <nav>
             <div class="container">
                     <div class="about">
-                    <a href="#a1">ABOUT</a></div>
+                    <a href="#a1" class="smoothScroll">ABOUT</a></div>
                 <div class="projects">
-                    <a href="#p1">PROJECTS</a></div>
+                    <a href="#p1" class="smoothScroll">PROJECTS</a></div>
                 <div class="resume">
-                    <a href="#r1">RESUME</a></div>
+                    <a href="#r1" class="smoothScroll">RESUME</a></div>
                 <div class="contact">
-                    <a href="#c1">CONTACT</a></div>
+                    <a href="#c1" class="smoothScroll">CONTACT</a></div>
              
             </div>
         </nav>
@@ -54,6 +58,8 @@
             <section id="p1">
                 <h2><span>Projects</span></h2>
                 <ul class="pj">
+                    <li><b>Personal Website (March 2016)</b>
+                    Created my personal website www dot sagartewari dot com using HTML, CSS, javascript and jQuery. This website will be updated regularly as I complete more projects.</li>
                     <li><b>MIPS Simulator (April 2015 - May 2015)</b> Created a Java program that shows the step by step working of a Petri Net simulator. It displayed working of fetch, decode, load, store and add functions on 32-bit instructions </li>
                     <li><b>Routing Scheme Using Binary Trie (February 2015 – May 2015)</b>
                         Implemented Dijkstra's algorithm using Fibonacci Heap in Java. Then modified the algorithm so as
@@ -65,6 +71,7 @@
                         The other part of the project decompresses the given compressed file thus retrieving the original text</li>
                     <li><b>Korn-like Unix shell built in C</b>
                     Successfully implemented Enviroment Variable Expansion Lex file Yacc file alias alias name word unalias name setenv variable word printenv unsetenv variable cd cd word_directory_name reading in and executing file bye metacharacters white space multi token arguments some error handling wildcard matching alias executes | piping parses string and executes commands</li>
+                    
                 </ul>
                 <div id = "end1"></div>
             </section>
@@ -85,18 +92,13 @@
         </div>
         
         
-        <script type='text/javascript' src='script.js'></script>
-        <script type='text/javascript' src='mypolyfill.js'></script>
-
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new   Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-75237222-1', 'auto');
   ga('send', 'pageview');
-
 </script>
     </body>
 </html>
