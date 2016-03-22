@@ -222,7 +222,7 @@ li
         display: none;
     }
     nav div {
-        width:1%;
+        width:7%;
         text-align: center;
     }
     nav div a {
@@ -230,6 +230,12 @@ li
     }
 }
 
+@media only screen and (max-width : 424px) {
+   #ct1 #certUnique {
+        font-size: 1em; 
+       font-weight: 800;
+    }
+}
 /*ul#navigation
 {
     list-style-type: none;
