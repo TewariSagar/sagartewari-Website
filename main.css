@@ -44,14 +44,14 @@ nav
 
 nav .container {
 	width: 100%;
-	max-width: 768px;
+	max-width: 1000px;
 }
 
 nav div
 {
     display: inline-block;
 	text-align: center;
-	width: 18%;
+    width: 18.5%;
 	padding: 5px;
 }
 
@@ -85,7 +85,7 @@ nav div a:hover {
     border-top:20px solid deeppink;
 }
 
-#p1, #r1
+#p1, #r1, #ct1
 {
     position: relative;
     font-size: 2em;
@@ -121,7 +121,7 @@ nav div a:hover {
     border-bottom: 10px solid deeppink;
 }
 
-#end, #end1, #end2, #end3
+#end, #end1, #end2, #end3, #end4
 {
     border-bottom:10px solid deeppink;
 }
@@ -150,6 +150,85 @@ li
     padding: 20px 0px 15px;
 }
 
+@media only screen and (max-width : 896px) {
+     h1 .heading
+    {
+        
+        margin-top: 130px;
+        font-size: 1em;
+        text-align: center;
+    }
+    .heading
+    {
+        margin-top: 150px;
+        margin-bottom: 50px;
+        margin-left: -240px;
+        margin-right: -200px;
+        font-size: 1.6em;
+
+    }
+    .bleh {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        position: absolute;
+    }
+    nav div {
+        
+        margin-right: 6px;
+        width:15%;
+        text-align: center;
+    }
+    nav div a {
+        
+        font-size: 1.4em;
+    }
+    
+    .intro {
+        width:90%;
+        font-size: 0.50em;
+    }
+    
+    .pj {
+        padding-right: 25px;
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width : 496px) {
+     h1 .heading
+    {
+        
+        margin-top: 130px;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .heading
+    {
+        margin-top: 150px;
+        margin-bottom: 50px;
+        margin-left: -240px;
+        margin-right: -200px;
+        font-size: 1.3em;
+
+    }
+    nav .container{
+        width: 80%;
+        max-width: 500px;
+    }
+    .container span {
+        display: none;
+    }
+    nav div {
+        width:1%;
+        text-align: center;
+    }
+    nav div a {
+        font-size: 1.2em;
+    }
+}
 
 /*ul#navigation
 {
@@ -165,7 +244,6 @@ li
 li {
     float: left;
 }
-
 li a {
     display: block;
     padding: 8px;
